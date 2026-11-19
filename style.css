@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FF6600;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Geist Mono', monospace;
+}
+
+.pfp {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 60px;
+  height: auto;
+  filter: 
+    drop-shadow(2px 0 0 #000000) 
+    drop-shadow(-2px 0 0 #000000) 
+    drop-shadow(0 2px 0 #000000) 
+    drop-shadow(0 -2px 0 #000000);
+}
+
+.about {
+  background-color: #ffffff;
+  color: #15151b;
+  max-width: 820px;
+  width: 100%;
+  padding: 36px 32px;
+  border-radius: 16px;
+  border: 2px solid #000000;
+  box-shadow: 6px 6px 0px #01012d;
+}
+
+.about h1 {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.about h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.about p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.about a {
+  color: #FF6600;
+  font-weight: 700;
+}
+
+.social {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px dashed #858586; /* Subtle divider inside the card */
+}
+
+.social h3 {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 6px;
+}
+
+.social p {
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.social-links a {
+  color: #858586;
+  font-weight: 700;
+  text-decoration: underline;
+}
