@@ -8,11 +8,13 @@ body {
   background-color: #FF6600;
   min-height: 100vh;
   display: flex;
+  flex-direction: column; /* Stacks navbar on top of your card */
   justify-content: center;
   align-items: center;
   padding: 20px;
   font-family: 'Geist Mono', monospace;
 }
+
 
 .pfp {
   position: absolute;
@@ -84,8 +86,49 @@ body {
   gap: 16px;
 }
 
-.social-links a {
+
+
+
+.social .social-links a {
   color: #858586;
   font-weight: 700;
+  text-decoration: underline;
+}
+
+/* This is for Project Section CSS */
+
+.projectbox {
+  background-color: #ffffff;
+  color: #15151b;
+  max-width: 820px;
+  width: 100%;
+  padding: 36px 32px;
+  border-radius: 16px;
+  border: 2px solid #000000;
+  box-shadow: 6px 6px 0px #01012d;
+  
+}
+
+.projectbox a {
+  color: #FF6600;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: #000000;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
   text-decoration: underline;
 }
